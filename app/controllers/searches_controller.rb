@@ -1,11 +1,13 @@
 class SearchesController < ApplicationController
+  skip_before_action :authenticate_user, only: :create
+
   def search
   end
 
   def foursquare
 
-    client_id = ENV['FOURSQUARE_CLIENT_ID']
-    client_secret = ENV['FOURSQUARE_SECRET']
+    client_id = "YMJGMRUR4LV2KRLZJ1MFYJRBGUUGNDNODG5VQK00GCILZGL4"
+    client_secret = "FV2G2XPYRBJS3EYV1ZWBMG1TS0UL0FL0FALML4BKAWCHNL4E"
 
     @resp = Faraday.get 'https://api.foursquare.com/v2/venues/search' do |req|
       req.params['client_id'] = client_id
@@ -28,4 +30,11 @@ class SearchesController < ApplicationController
       @error = "There was a timeout. Please try again."
       render 'search'
   end
+
+  def friends
+    resp=Faraday.get("https://api.foursquare.com/v2/users/self/friends") do |req|
+      req.params['oauth_token'] = session[:token]
+      req.params['v'] = '20160201'
+    end
+    @friends = JSON.parse(resp.body)["response"]["friends"]["items"]
 end

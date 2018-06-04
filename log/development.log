@@ -1280,3 +1280,133 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:24:02 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenicate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenicate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:27:03 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenicate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenicate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:36:27 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:36:34 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:39:40 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:45:32 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 11ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:46:13 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 505ms (Views: 452.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 73.218.86.249 at 2018-06-04 13:46:14 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 73.218.86.249 at 2018-06-04 13:46:14 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 73.218.86.249 at 2018-06-04 13:46:14 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 73.218.86.249 at 2018-06-04 13:46:14 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 73.218.86.249 at 2018-06-04 13:46:14 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/search" for 73.218.86.249 at 2018-06-04 13:46:28 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qV2c+adVrrdmJHGPLnSPtrCOJyhnd3wkyV+wModvoIK9NXvUni+Z+Wt/OvoW4iCGaLJCa8ja07LwMngX9Wg68A==", "zipcode"=>"01119", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 129ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:56:51 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 230ms (Views: 220.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 73.218.86.249 at 2018-06-04 13:56:54 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PZwZOXNkqYsTY2Ov3wSj6iqHaKPTHM0CWovGqEXI67Ep9P4USh6exR44KNrnkgza8rsN4HyxYpRj5g6NN89xww==", "zipcode"=>"", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 79ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 73.218.86.249 at 2018-06-04 13:57:16 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/kbH0D2klNi9zKor4uQFYwsq0gZ6NVyRFgEH4rmqF6LqLiD9BN6jlrCX4V7acqpT0xa3RdWY8wcvbM/Hy62N0A==", "zipcode"=>"07869", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 152ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 73.218.86.249 at 2018-06-04 13:57:26 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fZzHIXA2/UlYbTtBwOWGLDnCuHAtLe4Fy0TOSlgeQlFp9CAMSUzKB1U2cDT4cykc4f7dM4KAQZPyKQZvKhnYIw==", "zipcode"=>"324356", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 158ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 73.218.86.249 at 2018-06-04 13:57:29 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z8tJlL8WM89nQXHYRCES7GnbwQy+jxF+VXe5SRzc8tpzo665hmwEgWoaOq18t73cseekTxEivuhsGnFsbttoqA==", "zipcode"=>"45534", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 162ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 73.218.86.249 at 2018-06-04 13:59:45 +0000
+Cannot render console from 73.218.86.249! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
